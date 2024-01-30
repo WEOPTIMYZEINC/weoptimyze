@@ -1,19 +1,20 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './header.css'
+import weoptimyze from '../assets/images/WEOPTIMYZE.png'
 
 function Header() {
     return (
         <nav className="nav">
-            <ul className='ul'>
+            <ul className='ul' >
             <li>
-                    <Link to="/">
-                        <img src="/path-to-your-logo.png" alt="Logo" className="logo" />
+                    <Link to="/weoptimyze.com">
+                        <img src={weoptimyze} alt="Logo" className="logo" draggable="false" />
                     </Link>
                 </li>
-                <li><Link to="/">Services</Link></li>
-                <li><Link to="/">About</Link></li>
-                <li><Link to="/">Contact</Link></li>
+                <li className='borderBottom'><Link to="/">Services</Link></li>
+                <li className='borderBottom'><Link to="/">About</Link></li>
+                <li className='borderBottom'><Link to="/">Contact</Link></li>
             </ul>
         </nav>
     );

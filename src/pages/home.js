@@ -15,7 +15,7 @@ function Home() {
     "WeOptimyze: Where Tech Talent Meets Perfect Fit"]; // Add as many slogans as you want
 
     return (
-        <div className="App">
+        <div className="App" >
             <Slideshow slogans={slogans} />
             <div className='Headline'>
             Crafting Success Together
@@ -27,13 +27,13 @@ function Home() {
                     </p>
                 </div>
                 <div className='service-image'>
-                <img src={webDevImage} alt="web Dev" />
+                <img src={webDevImage} alt="web Dev" draggable="false" />
                 </div>
             </div>
 
             <div className='service-container'>
                 <div className='service-image'>
-                <img src={crossPlatformImage} alt="Cross Platform App Development" />
+                <img src={crossPlatformImage} alt="Cross Platform App Development" draggable="false"/>
                 </div>
                 <div className='service-text'>
                     <h3>Cross-Platform App Development</h3>
@@ -50,7 +50,7 @@ function Home() {
                     </p>
                 </div>
                 <div className='service-image'>
-                <img src={cloudComputingImage} alt="Cloud Computing" />
+                <img src={cloudComputingImage} alt="Cloud Computing" draggable="false" />
                 </div>
             </div>
             {/* <div className='row'>

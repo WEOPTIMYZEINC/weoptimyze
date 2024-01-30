@@ -29,14 +29,16 @@
     
 }
 
-.ul li a:hover {
+
+
+.borderBottom a:hover{
     color: red; /* Changes the background to red on hover */
     border-bottom: 4px solid red;
 }
 
 .logo {
-    height: 40px; /* Adjust the height as needed */
-    width: auto; /* Keeps the aspect ratio intact */
+    height: 37px;
+    width: 151PX;
 }
 
 
