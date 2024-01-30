@@ -27,7 +27,7 @@ function Home() {
                     </p>
                 </div>
                 <div className='service-image'>
-                <img src={webDevImage} alt="web Dev Image" />
+                <img src={webDevImage} alt="web Dev" />
                 </div>
             </div>
 
