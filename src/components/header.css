@@ -39,6 +39,7 @@
 .logo {
     height: 37px;
     width: 151PX;
+    pointer-events: none;
 }
 
 

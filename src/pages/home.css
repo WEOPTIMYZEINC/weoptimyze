@@ -40,6 +40,7 @@
     padding: 10px; /* Padding around image content */
     border: 1px solid #ddd; /* Optional border */
     text-align: center; /* Center aligns the image */
+    pointer-events: none;
 }
 
 .service-image img {
@@ -55,4 +56,3 @@
 
     /* ... other styles ... */
 }
-/* Rest of your existing CSS */

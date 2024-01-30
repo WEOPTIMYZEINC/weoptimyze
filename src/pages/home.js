@@ -53,27 +53,6 @@ function Home() {
                 <img src={cloudComputingImage} alt="Cloud Computing" draggable="false" />
                 </div>
             </div>
-            {/* <div className='row'>
-                <h3 className='text-column'>Web Development Services</h3>
-                <p>
-                    Offering comprehensive web development solutions, we specialize in creating responsive, user-friendly websites tailored to your business needs. Whether it's e-commerce platforms, corporate websites, or custom web applications, our expertise ensures a robust online presence for your brand.
-                </p>
-                <div className='image-column'>IMAGE</div>
-            </div>
-            <div className='row'>
-            <div className='image-column'>IMAGE</div>
-                <h3>Cross-Platform App Development</h3>
-                <p>
-                    Our cross-platform app development services bridge the gap between different operating systems. We build applications that run seamlessly on iOS, Android, and other platforms, ensuring a consistent user experience and broader market reach for your mobile apps.
-                </p>                
-            </div>
-            <div className='row'>
-                <h3>Cloud Computing Solutions</h3>
-                <p>
-                    Embrace the power of the cloud with our cloud computing solutions. From scalable storage options to advanced cloud-based applications, we help businesses optimize their operations, enhance data security, and achieve greater flexibility in their IT infrastructure.
-                </p>
-                <div className='image-column'>IMAGE</div>
-            </div> */}
         </div>
     );
 }
