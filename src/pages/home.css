@@ -1,0 +1,58 @@
+.slideshow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative; /* Set to relative */
+    height: 100px; /* Adjust as needed */
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 20px;
+    overflow: hidden; /* Hide overflow */
+}
+
+.Headline {
+    font-size: 2em; /* Adjust font size as needed */
+    color: #333; /* Adjust the color as needed */
+    text-align: center; /* Center align the text */
+    margin-top: 40px; /* Space above the headline */
+    margin-bottom: 20px; /* Space below the headline */
+}
+
+
+.service-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px; 
+}
+
+.service-text {
+    flex-basis: 48%; /* Adjust the width as needed */
+    padding: 10px; /* Padding around text content */
+    border: 1px solid #ddd; /* Optional border */
+    /* Additional styling for text column */
+}
+
+
+
+.service-image {
+    flex-basis: 48%; /* Adjust the width as needed */
+    padding: 10px; /* Padding around image content */
+    border: 1px solid #ddd; /* Optional border */
+    text-align: center; /* Center aligns the image */
+}
+
+.service-image img {
+    max-width: 100%;
+    height: auto;
+    max-height: 100%;
+}
+
+
+.service-text, .service-image {
+    flex-basis: 15%; /* Increased width */
+    margin: 0 10px;
+
+    /* ... other styles ... */
+}
+/* Rest of your existing CSS */

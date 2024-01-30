@@ -1,0 +1,46 @@
+/* slideshow.css */
+.slideshow {
+    position: relative;
+    /* Other styles remain unchanged */
+}
+
+.slogan {
+    position: absolute;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+    width: 100%; /* Ensure full width */
+    text-align: center; /* Center the text */
+}
+
+.slogan.active {
+    opacity: 1;
+}
+
+/* Flower styles */
+.flower {
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1; /* Ensures flower is behind text */
+}
+
+.flower::before, .flower::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 60px; /* size of the pistil */
+    height: 60px; /* size of the pistil */
+    background-color: yellow; /* color of the pistil */
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.flower::after {
+    width: 120px; /* size of the petals */
+    height: 120px; /* size of the petals */
+    background-color: lightyellow; /* color of the petals */
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+}
+

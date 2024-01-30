@@ -1,0 +1,71 @@
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    font-size: 14px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.footer-about, .footer-navigation, .footer-social-media, .footer-legal {
+    margin: 10px;
+}
+
+.footer-navigation ul, .footer-social-media a {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-navigation a, .footer-social-media a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.footer-social-media img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.footer-legal p {
+    margin-top: 0;
+}
+
+.social-icon {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 30px;
+    font-size: 20px;
+    color: white;
+    margin-right: 10px; /* Adds spacing between icons */
+}
+
+/* Specific styles for each social media platform using FontAwesome */
+.icon-facebook:before { content: '\f09a'; } /* Facebook */
+.icon-linkedin:before { content: '\f0e1'; } /* LinkedIn */
+.icon-twitter:before { content: '\f099'; } /* Twitter */
+.icon-instagram:before { content: '\f16d'; } /* Instagram */
+
+/* Ensure the FontAwesome font is applied */
+.icon-facebook:before, .icon-linkedin:before, .icon-twitter:before, .icon-instagram:before {
+    font-family: 'FontAwesome';
+}
+
+.icon-facebook:hover { background-color: #3b5998; } /* Facebook */
+.icon-linkedin:hover { background-color: #007bb6; } /* LinkedIn */
+.icon-twitter:hover { background-color: #00aced; } /* Twitter */
+.icon-instagram:hover { background-color: red; } /* Instagram */
