@@ -27,13 +27,13 @@ function Home() {
                     </p>
                 </div>
                 <div className='service-image'>
-                <img src={webDevImage} alt="web Dev Image" />
+                <img src={webDevImage} />
                 </div>
             </div>
 
             <div className='service-container'>
                 <div className='service-image'>
-                <img src={crossPlatformImage} alt="Cross Platform App Development" />
+                <img src={crossPlatformImage} />
                 </div>
                 <div className='service-text'>
                     <h3>Cross-Platform App Development</h3>
